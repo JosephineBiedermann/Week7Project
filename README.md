@@ -1,12 +1,12 @@
 # Ironhack Project Case Study - GNOD 🎼 🎧 🎙️
 by [Josephine Biedermann](https://github.com/JosephineBiedermann), May 2021
 
-## Purpose short
+## Purpose short xxx
 
 ## Table of content
 
-- [Project Brief](https://github.com/lillaszulyovszky/ironhack-case-study-classification/blob/main/README.md#project-brief)
-- [Process & Tools](https://github.com/lillaszulyovszky/ironhack-case-study-classification#process--tools)
+- [Project Brief](https://github.com/JosephineBiedermann/Week7Project/blob/main/README.md#project-brief)
+- [Process & Tools](https://github.com/JosephineBiedermann/Week7Project/blob/main/README.md#process--tools)
 
 ## Project Brief
 **Scenario:**
@@ -35,5 +35,6 @@ We are trying to come up with ways to enhance our music recommendations. One of 
 - Jupyter Notebook: Python - Data processing
 - 
 
+#  
 **Thank you for reading!** <br/>
 If you have any questions, please reach out.
