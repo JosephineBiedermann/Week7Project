@@ -1,7 +1,7 @@
 # Ironhack Project Case Study - GNOD 🎼 🎧 🎙️
 by [Josephine Biedermann](https://github.com/JosephineBiedermann), May 2021
 
-## Purpose short xxx
+## Building a tool that recommends a song to the user based on the users input.
 
 ## Table of content
 
