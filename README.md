@@ -2,7 +2,8 @@
 by [Josephine Biedermann](https://github.com/JosephineBiedermann), May 2021
 
 ## Building a tool that recommends a song to the user based on the users input.
-
+  
+  
 ## Table of content
 
 - [Project Brief](https://github.com/JosephineBiedermann/Week7Project/blob/main/README.md#project-brief)
@@ -22,20 +23,21 @@ We are trying to come up with ways to enhance our music recommendations. One of 
 - explore new data sources for songs: collect as much information as possible from popular songs
 - collect data (few hundreds or thousand) from each source and see if the collected features are useful
 - create clusters of songs that are similar to each other. The idea is that if a user inputs a song from one group, we'll prioritize giving them recommendations of songs from that same group.
-- present work to Marek, the CEO and founder 
+- present work
 
-## Process & Tools
-**Process**
-- Data gathering
-- Cluster building
-- Outcome presentation
+## Process
+- Data gathering 1 - webscraping hot100 bilboards - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_Webscraping.ipynb) - [data](https://github.com/JosephineBiedermann/Week7Project/blob/main/data/top_100_songs.csv)
+- building prototype 1 - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_Recommendation_function.ipynb)
+![1st prototype](https://github.com/JosephineBiedermann/Week7Project/blob/main/images/1st_prototype.jpg?raw=true)
+- data gathering 2 - using Spotipy API to get more songs for comparison - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_API_Wrapper_cleaned.ipynb)
+- building kmeans model for clustering of gathered songs - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_KMeans_latin.ipynb) - [data](https://github.com/JosephineBiedermann/Week7Project/blob/main/data/audiofeatures_latin_playlists_merged.csv) 
+- building prototype 2
+![2nd prototype](https://github.com/JosephineBiedermann/Week7Project/blob/main/images/2nd_prototype.png?raw=true)
+- putting prototype 1 and 2 together to the final tool
 
-**Tools**
-- Google Chrome: HTML - Data gathering
-- Jupyter Notebook: Python - Data processing
-- 
 
-# sources (not complete)
+
+## Sources (not complete)
 - [Spotipy Library ](https://developer.spotify.com/documentation/web-api/reference/#category-search)
 #  
 **Thank you for reading!** <br/>
