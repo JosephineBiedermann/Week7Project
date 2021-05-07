@@ -35,6 +35,8 @@ We are trying to come up with ways to enhance our music recommendations. One of 
 - Jupyter Notebook: Python - Data processing
 - 
 
+# sources (not complete)
+- [Spotipy Library ](https://developer.spotify.com/documentation/web-api/reference/#category-search)
 #  
 **Thank you for reading!** <br/>
 If you have any questions, please reach out.
