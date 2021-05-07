@@ -28,6 +28,9 @@ We are trying to come up with ways to enhance our music recommendations. One of 
 ## Process
 - Data gathering 1 - webscraping hot100 bilboards - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_Webscraping.ipynb) - [data](https://github.com/JosephineBiedermann/Week7Project/blob/main/data/top_100_songs.csv)
 - building prototype 1 - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_Recommendation_function.ipynb)
+  In the first prototype we are requesting a song from the user and test if this song is in the hot100 database we scraped from the billboard webside.
+  If the song is in the database we are recommending another random song from the hot100 database.
+  The prototype can take missspelled input songs and check if there was an invalid entry.
 ![1st prototype](https://github.com/JosephineBiedermann/Week7Project/blob/main/images/1st_prototype.jpg?raw=true)
 - data gathering 2 - using Spotipy API to get more songs for comparison - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_API_Wrapper_cleaned.ipynb)
 - building kmeans model for clustering of gathered songs - [notebook](https://github.com/JosephineBiedermann/Week7Project/blob/main/code/LAB_KMeans_latin.ipynb) - [data](https://github.com/JosephineBiedermann/Week7Project/blob/main/data/audiofeatures_latin_playlists_merged.csv) 
